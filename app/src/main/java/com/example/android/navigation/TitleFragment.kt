@@ -23,8 +23,8 @@ class TitleFragment : Fragment() {
                    inflater,R.layout.fragment_title,container,false
            )
         binding.playButton.setOnClickListener { view: View->
-            Navigation.findNavController(view).navigate(R.id.action_titleFragment_to_gameFragment)
-
+//            Navigation.findNavController(view).navigate(R.id.action_titleFragment_to_gameFragment)
+             view.findNavController().navigate(TitleFragmentDirections.actionTitleFragmentToGameFragment())
         }
         setHasOptionsMenu(true) //for showing menu icon in Title Fragment
         return binding.root
