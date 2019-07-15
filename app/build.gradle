@@ -66,5 +66,9 @@ dependencies {
     implementation 'androidx.navigation:navigation-fragment-ktx:2.0.0'
     implementation 'androidx.navigation:navigation-ui-ktx:2.0.0'
 
+    //for menu drawer
+//    implementation "androidx.appcompat:appcompat:$supportlibVersion"
+//    implementation "com.google.android.material:material:$supportlibVersion"
+
 
 }
